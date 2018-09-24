@@ -1,0 +1,65 @@
+.title {
+    margin: auto;
+    font-size: 6em;
+    text-align: center;
+    color: yellow;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    border: solid black 1px;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+.stbt {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em
+}
+
+.donebt {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em
+}
+
+.resetbt {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em
+}
+
+.qq {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    border: solid black 1px;
+}
+
+.con {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    border: solid black 1px;
+}
+
+.reset {
+    background-color:rgba(247, 6, 6, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em
+}
+
+body {
+    background: url(../images/digimonback.jpg)  0% 0% / cover no-repeat;
+}
