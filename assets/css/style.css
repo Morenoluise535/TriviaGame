@@ -17,15 +17,38 @@
     text-align: center;
     max-width: 20%;
     margin: auto;
-    margin-top: 1em
+    margin-top: 1em;
+    border: solid black 1px;
 }
+
+.next {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: solid black 1px;
+}
+
+.op {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 1em;
+    border: solid black 1px;
+    margin-bottom: 1em;
+}
+
 
 .donebt {
     background-color:rgba(255, 255, 255, 0.6);
     text-align: center;
     max-width: 20%;
     margin: auto;
-    margin-top: 1em
+    margin-top: 1em;
+    border: solid black 1px;
 }
 
 .resetbt {
@@ -33,10 +56,28 @@
     text-align: center;
     max-width: 20%;
     margin: auto;
-    margin-top: 1em
+    margin-top: 1em;
+    border: solid black 1px;
+}
+
+.timeremaining {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 1em;
+    border: solid black 1px;
 }
 
 .qq {
+    background-color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    border: solid black 1px;
+}
+
+.ww1 {
     background-color:rgba(255, 255, 255, 0.6);
     text-align: center;
     margin: auto;
@@ -57,9 +98,30 @@
     text-align: center;
     max-width: 20%;
     margin: auto;
-    margin-top: 1em
+    margin-top: 1em;
+    border: solid black 1px;
 }
 
 body {
     background: url(../images/digimonback.jpg)  0% 0% / cover no-repeat;
 }
+
+.pic {
+    max-width: 15em;
+    max-height: 15em;
+    border: solid 1em black;
+}
+
+#myProgress {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    background-color: #4CAF50;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+  }
